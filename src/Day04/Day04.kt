@@ -105,7 +105,6 @@ fun main() {
     }
 
     fun part2(input: List<String>): Long {
-        var result = 0L
         val inputAsArray = input.map { it.toCharArray() }
         return countXmasPart2(inputAsArray).toLong()
     }
